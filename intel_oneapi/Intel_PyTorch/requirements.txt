@@ -1,0 +1,3 @@
+intel-extension-for-pytorch>=1.12.100+cpu
+scikit-learn>=1.1.1
+numpy>=1.21.4

@@ -1,0 +1,4 @@
+include:
+  - project: 'lico/gitlab-runner-configure'
+    file:
+      - 'default.yml'

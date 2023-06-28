@@ -1,0 +1,3 @@
+paddle-bfloat>=0.1.7
+paddlepaddle-gpu>=2.4.1.post117
+numpy>=1.21.6
