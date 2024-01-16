@@ -24,4 +24,4 @@ echo "original CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
 get_cuda_index
 echo "CUDA_VISIBLE_DEVICES=$ret"
 
-export CUDA_VISIBLE_DEVICES=$ret && python $(dirname $0)/mnist_lenet.py
+export CUDA_VISIBLE_DEVICES=$ret && python $(dirname $0)/mnist_lenet.py $@
